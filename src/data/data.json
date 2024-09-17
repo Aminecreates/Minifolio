@@ -1,0 +1,9 @@
+[
+  {
+    "projectImage": "imgs/ec.png",
+    "title": "easyCompare",
+    "description": "A React site using the RAWG API, allowing game enthusiasts to easily compare ratings and find top-rated games.",
+    "tools": ["Fimga", "React", "Rawg API"],
+    "url": "https://easy-compare.onrender.com"
+  }
+]

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "./styles/_variables.scss";
+
+@font-face {
+  font-family: "Clash Grotesk";
+  src: url("/fonts/ClashGrotesk-Bold.otf") format("opentype");
+  font-weight: 700; /* Use numeric weight */
+  font-style: normal; /* Use normal or italic */
+}
+
+@font-face {
+  font-family: "Clash Grotesk";
+  src: url("/fonts/ClashGrotesk-Medium.otf") format("opentype");
+  font-weight: 500; /* Use numeric weight */
+  font-style: normal; /* Use normal or italic */
+}
+
+@font-face {
+  font-family: "Clash Grotesk";
+  src: url("/fonts/ClashGrotesk-Light.otf") format("opentype");
+  font-weight: 300; /* Use numeric weight */
+  font-style: normal; /* Use normal or italic */
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--background);
+}
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  font-family: "inter", sans-serif;
+  justify-content: center;
+  align-items: center;
+  padding-top: 160px;
+  flex-direction: column;
+  gap: 32px;
+
+  .whiteshade {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    /* border-radius: 100%;
+    top: -340px;
+    width: 680px;
+    height: 680px; */
+    /* background-color: #ffffff05;
+    filter: blur(100px); */
+    opacity: 0.5;
+  }
+
+  .divider {
+    width: 680px;
+    height: 1px;
+    background-color: #373737;
+  }
+  .bottom-black-shade {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(
+      to top,
+      rgba(12, 11, 11, 1) 0%,
+      rgba(12, 11, 11, 0) 100%
+    );
+  }
+}

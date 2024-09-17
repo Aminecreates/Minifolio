@@ -1,0 +1,35 @@
+[
+  {
+    "toolImg": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain-wordmark.svg",
+    "name": "HTML"
+  },
+  {
+    "toolImg": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain-wordmark.svg",
+    "name": "CSS"
+  },
+  {
+    "toolImg": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg",
+    "name": "SASS"
+  },
+  {
+    "toolImg": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg",
+    "name": "TailwindCSS"
+  },
+  {
+    "toolImg": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+    "name": "JavaScript"
+  },
+  {
+    "toolImg": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+    "name": "React"
+  },
+
+  {
+    "toolImg": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain-wordmark.svg",
+    "name": "NodeJS"
+  },
+  {
+    "toolImg": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-plain-wordmark.svg",
+    "name": "MongoDB"
+  }
+]

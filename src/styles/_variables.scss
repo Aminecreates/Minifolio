@@ -1,0 +1,47 @@
+$container-width: 680px;
+
+// _variables.scss
+
+// Dark Theme Variables
+$dark-border: 1px solid #373737;
+$dark-white-color: #e8e8e8;
+$dark-grey-darkest: #171717;
+$dark-grey-dark: #2d2d2d;
+$dark-grey-medium: #1e1e1e;
+$dark-grey-light: #a0a0a0;
+$dark-background: #0b0b0b;
+$container-width: 680px;
+
+// Light Theme Variables
+$light-border: 1px solid #d1d1d1;
+$light-white-color: #1a1a1a; // Darker text color for light mode
+$light-grey-darkest: #f0f0f0;
+$light-grey-dark: #e0e0e0;
+$light-grey-medium: #d0d0d0;
+$light-grey-light: #b0b0b0;
+$light-background: #ffffff;
+
+$container-width: 680px;
+
+// Global custom properties for dark mode
+:root {
+  --border: #{$dark-border};
+  --white-color: #{$dark-white-color};
+  --grey-darkest: #{$dark-grey-darkest};
+  --grey-dark: #{$dark-grey-dark};
+  --grey-medium: #{$dark-grey-medium};
+  --grey-light: #{$dark-grey-light};
+  --background: #{$dark-background};
+  --container-width: #{$container-width};
+}
+
+// Override custom properties for light mode
+.light-mode {
+  --border: #{$light-border};
+  --white-color: #{$light-white-color};
+  --grey-darkest: #{$light-grey-darkest};
+  --grey-dark: #{$light-grey-dark};
+  --grey-medium: #{$light-grey-medium};
+  --grey-light: #{$light-grey-light};
+  --background: #{$light-background};
+}

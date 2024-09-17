@@ -1,0 +1,41 @@
+@import "variables";
+
+.filters-container {
+  width: $container-width;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+
+  .filter-tab {
+    background-color: --grey-medium;
+    border: var(--border);
+    padding: 4px;
+    display: flex;
+    border-radius: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: ease-in-out 0.3s background-color;
+
+    &:hover {
+      background-color: var(--grey-medium);
+    }
+
+    .filter {
+      padding: 8px 16px;
+      color: var(--white-color);
+      font-size: 14px;
+      border-radius: 3rem;
+      background-color: #2d2d2d00;
+      transition: background-color ease-in-out 0.3s;
+    }
+    .active {
+      background-color: var(--grey-dark);
+    }
+  }
+  .filter-label {
+    color: var(--white-color);
+  }
+}
