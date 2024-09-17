@@ -22,3 +22,15 @@
     }
   }
 }
+
+@media (max-width: 425px) {
+  .tools-container {
+    width: 95%;
+    .tool {
+      height: 100px;
+      img {
+        transform: scale(0.8);
+      }
+    }
+  }
+}

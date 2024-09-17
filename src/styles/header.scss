@@ -71,3 +71,10 @@
     color: var(--grey-light);
   }
 }
+
+@media (max-width: 425px) {
+  .headline-paragraphe {
+    width: 95%;
+    // background-color: red;
+  }
+}
