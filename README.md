@@ -1,8 +1,12 @@
-# React + Vite
+# Minimal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, one-page minimal portfolio built using **React** and **Sass** to showcase my projects and the tools I use. The design is clean and focuses on highlighting my work and skills effectively.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Works well on both desktop and mobile screens.
+- **Minimal and Clean UI**: Focuses on the content without unnecessary distractions.
+- **Projects Showcase**: Displays the key projects I've worked on with descriptions and links.
+- **Tools Section**: Highlights the technologies and tools I use in my work.
+- **React**: The frontend is built using React to create a dynamic and smooth user experience.
+- **Sass**: Styles are organized using Sass for maintainable and scalable CSS.
