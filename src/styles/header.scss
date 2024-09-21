@@ -12,7 +12,7 @@
     margin: 0;
     font-weight: 500;
     font-size: 24px;
-    color: var(--white-color);
+    color: $dark-white-color;
     span {
       font-size: 24px;
     }
@@ -68,7 +68,7 @@
     font-size: 16px;
     font-weight: 400;
     margin: 0;
-    color: var(--grey-light);
+    color: $dark-grey-light;
   }
 }
 

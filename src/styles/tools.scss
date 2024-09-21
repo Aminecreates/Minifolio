@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: var(--border);
+    border: $dark-border;
 
     img {
       width: 80px;

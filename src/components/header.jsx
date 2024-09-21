@@ -1,9 +1,28 @@
-import "../App.css";
+import "../App.scss";
 import "../styles/header.scss";
+import { useRef, useEffect } from "react";
+import { gsap } from "gsap";
 
 function Header() {
+  const headerRef = useRef();
+
+  useEffect(() => {
+    gsap.fromTo(
+      headerRef.current,
+      { y: 100, opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 1.5,
+        stagger: 0.2,
+        ease: "power3.out",
+        clearProps: "all",
+      }
+    );
+  }, []);
+
   return (
-    <div className="headline-paragraphe">
+    <div ref={headerRef} className="headline-paragraphe">
       <h1 className="headline">
         Hey, i’m{" "}
         <span className="name">

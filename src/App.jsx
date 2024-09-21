@@ -4,7 +4,7 @@ import Filters from "./components/filters";
 import Projects from "./components/projects";
 import Tools from "./components/tools";
 import Footer from "./components/footer";
-import "./App.css";
+import "./App.scss";
 
 function App() {
   const [activeFilter, setActiveFilter] = useState("Projects");
@@ -16,10 +16,8 @@ function App() {
   return (
     <>
       <div className="wrapper">
-        {/* <ThemeSwitch /> */}
         <div className="whiteshade"></div>
         <Header />
-        <div className="divider"></div>
         <Filters
           activeFilter={activeFilter}
           handleFilterClick={handleFilterClick}
@@ -30,7 +28,6 @@ function App() {
           <Tools />
         ) : null}
         <Footer />
-        <div className="bottom-black-shade"></div>
       </div>
     </>
   );

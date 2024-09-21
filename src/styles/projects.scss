@@ -12,14 +12,14 @@
     box-sizing: border-box;
     width: 100%;
     border-radius: 32px;
-    border: var(--border);
+    border: $dark-border;
     padding: 8px;
     gap: 16px;
     display: flex;
     flex-direction: row;
     transition: ease-in-out 0.3s background-color;
     &:hover {
-      background-color: var(--grey-darkest);
+      background-color: $dark-grey-darkest;
     }
     .project-image {
       height: 160px;
@@ -29,7 +29,7 @@
       justify-content: center;
       align-items: center;
       flex-shrink: 0;
-      border: var(--border);
+      border: $dark-border;
 
       img {
         width: 100%;
@@ -46,7 +46,7 @@
         font-family: "Clash Grotesk", sans-serif;
         font-weight: 500;
         font-size: 24px;
-        color: var(--white-color);
+        color: $dark-white-color;
         cursor: pointer;
 
         &:hover {
@@ -56,14 +56,14 @@
 
       p {
         font-size: 14px;
-        color: var(--grey-light);
+        color: $dark-grey-light;
       }
       .tools {
-        color: var(--grey-light);
+        color: $dark-grey-light;
         font-size: 14px;
         width: 100%;
         .tool-tag {
-          background-color: var(--grey-medium);
+          background-color: $dark-grey-medium;
           padding: 4px 12px;
           margin-right: 4px;
           border-radius: 3rem;
@@ -71,7 +71,7 @@
         }
       }
       span {
-        color: var(--white-color);
+        color: $dark-white-color;
       }
     }
   }

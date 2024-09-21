@@ -3,11 +3,11 @@
 .footer-container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 24px;
   align-items: center;
   margin: 64px 0;
   font-size: 14px;
-  color: var(--grey-light);
+  color: $dark-grey-light;
   z-index: 10;
   .social-icons {
     display: flex;
@@ -16,7 +16,8 @@
     .icon-container {
       width: 40px;
       height: 40px;
-      background-color: var(--grey-darkest);
+      background-color: $dark-grey-darkest;
+      border: 1px solid $dark-grey-darkest;
       border-radius: 8px;
       display: flex;
       justify-content: center;

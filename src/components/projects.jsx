@@ -1,14 +1,41 @@
 // import { Link } from "react-router-dom";
+import { useEffect, useRef } from "react";
+
 import { ArrowUpRight } from "phosphor-react";
 import data from "../data/data.json";
 import "../styles/projects.scss";
+import { gsap } from "gsap";
 
 function Projects() {
+  const projectsRef = useRef([]);
+
+  useEffect(() => {
+    gsap.fromTo(
+      projectsRef.current,
+      { y: 100, opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 3,
+        stagger: 0.2,
+        ease: "power3.out",
+        clearProps: "all",
+      }
+    );
+  }, []);
   return (
     <div className="projects-container">
       {data.map((project, index) => (
-        <a key={index} href={project.url}>
-          <div className="project-container">
+        <a
+          key={index}
+          href={project.url}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div
+            ref={(el) => (projectsRef.current[index] = el)}
+            className="project-container"
+          >
             <div className="project-image">
               <img src={project.projectImage} alt="" />
             </div>
